@@ -1,0 +1,17 @@
+{
+  "name": "styx",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node consume.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "forever": "^0.14.1",
+    "jade": "^1.9.2",
+    "mongoose": "^4.0.1",
+    "morgan": "^1.5.2",
+    "twitter": "^1.2.1"
+  }
+}

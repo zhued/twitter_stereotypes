@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="hateUI">
+<head>
+	<link rel="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="stylesheets/style.css" />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<title>HTML5 Bar Graph Example</title>
+</head>
+
+<body ng-controller="graphics as ui">
+	<div class="container">
+		<h1>{{ui.title}}</h1>
+		<p>{{ui.stats}}</p>
+		<div id="usa-map"></div>
+		<br />
+		<div id="graphDiv1"></div>
+		<br />
+		<div id="graphDiv2"></div>
+	</div>
+	<!--[if IE]><script src="excanvas.js"></script><![endif]-->
+	<script src="javascripts/bar-graph.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src="javascripts/client.js"></script>
+</body>
+</html>
